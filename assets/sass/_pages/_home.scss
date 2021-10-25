@@ -103,6 +103,11 @@
         }
     }
     @media (max-width: 767px) {
+
+        .el__item--thumb {
+            max-width: 90%;
+        }
+
         .item__wrap{width: 242px;}
 
         .el__item--excerpt {
