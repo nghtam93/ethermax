@@ -259,6 +259,9 @@ br{
         transform: rotate(180deg);
         transform-origin: 24px 13px;
     }
+    @media (max-width: 767px){
+        display: none;
+    }
 }
 
 .flickity-page-dots{

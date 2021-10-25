@@ -145,6 +145,17 @@
     @media (max-width: 991px) {
         padding: 80px 0 40px;
     }
+    @media (max-width: 767px) {
+        padding: 70px 0 40px;
+        background: url(../img/roadmap-radial.png) no-repeat;
+        .el__thumb {
+            max-width: 100%;
+        }
+        .el__wrap{
+            background: url(../img/roadmaps-bg-mb.png) no-repeat;
+            background-size: 100% 100%;
+        }
+    }
 }
 
 .home-wrap2{
@@ -166,6 +177,11 @@
             background-size: contain;
         }
     }
+    @media (max-width: 767px) {
+        &:before{
+            display: none;
+        }
+    }
 }
 
 
@@ -185,6 +201,9 @@
         }
     }
     @media (max-width: 767px) {
+        background: url(../img/ecosystem-radial-mb.png) no-repeat;
+        background-position: center;
+        padding:45px 0 45px;
         .sc__header .sc__header--excerpt{
             margin-bottom: 0;
         }
