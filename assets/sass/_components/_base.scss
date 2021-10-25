@@ -198,9 +198,15 @@ br{
     }
     &--primary{
         background: linear-gradient(45deg, #E91987, #341EBB);
-// transition: transform 1s;
         &:hover{
             transform: translateY(-5px);
+        }
+    }
+
+    @media (max-width: 767px){
+        &.btn--primary {
+            background: #05050e;
+            box-shadow: none;
         }
     }
 

@@ -225,6 +225,10 @@ br.tb {
     background: linear-gradient(45deg, #E91987, #341EBB); }
     .btn--primary:hover {
       transform: translateY(-5px); }
+  @media (max-width: 767px) {
+    .btn.btn--primary {
+      background: #05050e;
+      box-shadow: none; } }
 
 /*Slider*/
 .flickity-page-dots {
