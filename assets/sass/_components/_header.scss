@@ -66,7 +66,7 @@
 	        bottom: 0;
 	        width: 10%;
 	        height: 100%;
-	        background: #571DB1;
+	        background: linear-gradient(45deg, #571DB1, #E91987);
 	        border-radius: 16px;
 	        opacity: 0;
 	        transition: all .5s;
@@ -78,6 +78,9 @@
 	            &:after {
 	                opacity: 1;
 	                width: 100%;
+	            }
+	            span{
+	            	-webkit-text-fill-color: #fff;
 	            }
 	        }
 	    }
