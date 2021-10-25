@@ -309,7 +309,7 @@
             line-height: 1.7;
             margin-bottom: 35px;
         }
-        &--excerpt{
+        .slider__item--excerpt{
             min-height: 135px;
         }
 
@@ -319,5 +319,9 @@
         .sc__header {
             margin-bottom: 30px;
         }
+        .home-feedback__slider .flickity-prev-next-button {
+            display: none;
+        }
+
     }
 }
