@@ -233,6 +233,11 @@
                 margin: -1px;
                 border-radius: inherit;
                 background: linear-gradient(to right, #571DB1, #FF73D3, #B91B95);
+                  animation-name: spin;
+                  animation-duration: 3000ms;
+                  animation-iteration-count: infinite;
+                  animation-timing-function: linear;
+
             }
             .-wrap {
                 background: #1a102d;
@@ -265,6 +270,8 @@
             font-size: 18px;
             line-height: 36px;
             margin-bottom: 60px;
+            min-height: 216px;
+            overflow: hidden;
         }
     }
 
@@ -296,6 +303,9 @@
             font-size: 16px;
             line-height: 1.7;
             margin-bottom: 35px;
+        }
+        &--excerpt{
+            min-height: 135px;
         }
 
     }
