@@ -15,7 +15,14 @@
 <body>
     <header class="header header--fix">
         <div class="container">
-            <div class="sc__wrap d-flex justify-content-between align-items-center">
+            <div class="sc__wrap d-flex justify-content-lg-between align-items-center">
+
+                <div class="d-lg-none me-3">
+                    <a href="#" class="menu-mb__btn">
+                        <img src="./assets/img/burger.png" alt="">
+                    </a>
+                </div>
+
                 <div class="header__logo">
                     <a href="index.html">
                         <img src="./assets/images/logo.png" alt="">
@@ -45,17 +52,17 @@
     <section class="home-banner">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-lg-6 order-lg-2 wow fadeInLeft">
+                    <div class="el__item--thumb">
+                        <img src="./assets/images/header-img.png" alt="Ethermax - Staking Holding - Trading - Gaming Liquidity platform">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInRight">
                     <h2 class="el__item--title">Ethermax - Staking<br>Holding - Trading - Gaming Liquidity platform</h2>
                     <div class="el__item--excerpt">
                         Our goal with Ethermax is to create the most developer-friendly environment possible where they can trust to transact and create their own community based on increasing community links, having activities effective incentive to do so and maintain ownership of ETMX. All focus on accelerated work benefiting decentralized community members.
                     </div>
                     <a href="#" class="btn btn--primary">Get Started</a>
-                </div>
-                <div class="col-md-6">
-                    <div class="el__item--thumb">
-                        <img src="./assets/images/header-img.png" alt="Ethermax - Staking Holding - Trading - Gaming Liquidity platform">
-                    </div>
                 </div>
             </div>
 
@@ -64,41 +71,39 @@
             </div>
 
             <div id="home-banner__box" class="el__box">
-                <div class="container">
-                    <div class="sc__header text-center">
-                        <h2 class="sc__header--title">Scalable smart contract platform and <br>crosschain conversion integration</h2>
-                        <div class="sc__header--excerpt">
-                            Ethermax platform will focus on 4 core community operating activities including: Emaxker (Community owns ETMX token value), Trading (Transaction), Transfer (Transfer), Saved (Store), Mind (play). POS (Staking). User activities that help the platform survive and develop are recognized and rewarded through ETMX tokens based on interaction evaluation mechanisms and controlled by Ethermax Revenue Smart Contract on BSC Smart chain.
+                <div class="sc__header text-center">
+                    <h2 class="sc__header--title wow fadeInUp">Scalable smart contract platform and <br>crosschain conversion integration</h2>
+                    <div class="sc__header--excerpt wow fadeInUp">
+                        Ethermax platform will focus on 4 core community operating activities including: Emaxker (Community owns ETMX token value), Trading (Transaction), Transfer (Transfer), Saved (Store), Mind (play). POS (Staking). User activities that help the platform survive and develop are recognized and rewarded through ETMX tokens based on interaction evaluation mechanisms and controlled by Ethermax Revenue Smart Contract on BSC Smart chain.
+                    </div>
+                </div>
+
+                <div class="el__box__slider slider flickity wow fadeInUp" data-flickity='{ "autoPlay": true ,"cellAlign": "center", "contain": true, "wrapAround": true, "groupCells": false, "pageDots": true,"prevNextButtons": false }'>
+                    <div class="col-md-4 col-lg-4 item__wrap">
+                        <div class="slider__item">
+                            <div class="slider__item--thumb dnfix__thumb -contain">
+                                <img src="./assets/images/home-banner-img-1.png" alt="">
+                            </div>
                         </div>
                     </div>
-
-                    <div class="el__box__slider slider flickity" data-flickity='{ "autoPlay": true ,"cellAlign": "left", "contain": true, "wrapAround": true, "groupCells": false, "pageDots": true,"prevNextButtons": false }'>
-                        <div class="col-md-4 col-lg-4 item__wrap">
-                            <div class="slider__item">
-                                <div class="slider__item--thumb">
-                                    <img src="./assets/images/home-banner-img-1.png" alt="">
-                                </div>
+                    <div class="col-md-4 col-lg-4 item__wrap">
+                        <div class="slider__item">
+                            <div class="slider__item--thumb dnfix__thumb -contain">
+                                <img src="./assets/images/home-banner-img-2.png" alt="">
                             </div>
                         </div>
-                        <div class="col-md-4 col-lg-4 item__wrap">
-                            <div class="slider__item">
-                                <div class="slider__item--thumb">
-                                    <img src="./assets/images/home-banner-img-2.png" alt="">
-                                </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 item__wrap">
+                        <div class="slider__item">
+                            <div class="slider__item--thumb dnfix__thumb">
+                                <img src="./assets/images/home-banner-img-3.png" alt="">
                             </div>
                         </div>
-                        <div class="col-md-4 col-lg-4 item__wrap">
-                            <div class="slider__item">
-                                <div class="slider__item--thumb">
-                                    <img src="./assets/images/home-banner-img-3.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                         <div class="col-md-4 col-lg-4 item__wrap">
-                            <div class="slider__item">
-                                <div class="slider__item--thumb">
-                                    <img src="./assets/images/home-banner-img-1.png" alt="">
-                                </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 item__wrap">
+                        <div class="slider__item">
+                            <div class="slider__item--thumb dnfix__thumb -contain">
+                                <img src="./assets/images/home-banner-img-3.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -110,10 +115,10 @@
 
     <section class="home-roadmap">
         <div class="container">
-            <div class="sc__header text-center">
+            <div class="sc__header text-center wow fadeInUp">
                 <h2 class="sc__header--title">Roadmap</h2>
             </div>
-            <div class="el__thumb">
+            <div class="el__thumb wow fadeInUp">
                 <img src="./assets/images/home 1.png" alt="">
             </div>
         </div>
@@ -125,38 +130,43 @@
                 <div class="row">
                     <div class="col-md-6 d-flex align-items-center">
                         <div class="sc__header">
-                            <h2 class="sc__header--title">Ecosystem</h2>
-                            <div class="sc__header--excerpt">
+                            <h2 class="sc__header--title wow fadeInUp">Ecosystem</h2>
+                            <div class="sc__header--excerpt wow fadeInUp">
                                 The ETMX Crypto Team combines a passion for esports, industry experise & proven record in finance, development, marketing. ETMX Crypto makes you the sole owner of a secure decentralize registry for your collection an products.
                             </div>
-                            <a href="#" class="btn btn--primary">Learn more</a>
+                            <div class="d-none d-md-block wow fadeInUp">
+                                <a href="#" class="btn btn--primary">Learn more</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 wow fadeInRight">
                         <div class="el__thumb">
                             <img src="./assets/images/home-ecosystem-img.png" alt="">
                         </div>
                     </div>
+                    <div class="d-md-none text-center">
+                        <a href="#" class="btn btn--primary">Learn more</a>
+                    </div>
                 </div>
 
-                <div class="el__box">
+                <div class="el__box wow fadeInUp">
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-6 col-md-3">
                             <div class="el__item--thumb">
                                 <img src="./assets/images/home-ecosystem-img-1.png" alt="">
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-6 col-md-3">
                             <div class="el__item--thumb">
                                 <img src="./assets/images/home-ecosystem-img-2.png" alt="">
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-6 col-md-3">
                             <div class="el__item--thumb">
                                 <img src="./assets/images/home-ecosystem-img-3.png" alt="">
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-6 col-md-3">
                             <div class="el__item--thumb">
                                 <img src="./assets/images/home-ecosystem-img-4.png" alt="">
                             </div>
@@ -168,11 +178,11 @@
 
         <section class="home-feedback">
             <div class="container">
-                <div class="sc__header text-center">
+                <div class="sc__header text-center wow fadeInUp">
                     <h2 class="sc__header--title">Customer Experience</h2>
                 </div>
 
-                <div class="home-feedback__slider" data-flickity='{ "autoPlay": true ,"cellAlign": "left", "contain": true, "wrapAround": true, "groupCells": false, "pageDots": true,"prevNextButtons": false }'>
+                <div class="home-feedback__slider wow fadeInUp" data-flickity='{ "autoPlay": true ,"cellAlign": "center", "contain": true, "wrapAround": true, "groupCells": false, "pageDots": true,"prevNextButtons": false }'>
                     <div class="col-md-4 col-lg-4 item__wrap">
                         <div class="slider__item">
                             <div class="slider__item--excerpt">
@@ -248,39 +258,44 @@
         <div class="container">
             <div class="footer__top">
                 <div class="row">
-                    <div class="col-md-3">
-                        <a href="index.html">
+                    <div class="col-12 col-lg-3 col-md-3">
+                        <a href="index.html" class="footer__logo">
                             <img src="./assets/images/logo.png" alt="">
                         </a>
                     </div>
-                    <div class="col-md-2">
-                        <div class="footer__item">
-                            <div class="el__header">
-                                <h6 class="el__header--title">General</h6>
+                    <div class="col-6 col-lg-4">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="footer__item">
+                                    <div class="el__header">
+                                        <h6 class="el__header--title">General</h6>
+                                    </div>
+                                    <nav class="">
+                                        <ul class="el__list">
+                                            <li class="menu-item"><a href="#">Terms and Privacy</a></li>
+                                            <li class="menu-item"><a href="#">Support</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
                             </div>
-                            <nav class="">
-                                <ul class="el__list">
-                                    <li class="menu-item"><a href="#">Terms and Privacy</a></li>
-                                    <li class="menu-item"><a href="#">Support</a></li>
-                                </ul>
-                            </nav>
+                            <div class="col-md-6">
+                                <div class="footer__item">
+                                    <div class="el__header">
+                                        <h6 class="el__header--title">Learn</h6>
+                                    </div>
+                                    <nav class="">
+                                        <ul class="el__list">
+                                            <li class="menu-item"><a href="#">Documentation</a></li>
+                                            <li class="menu-item"><a href="#">FAQ</a></li>
+                                            <li class="menu-item"><a href="#">Blog</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-2">
-                        <div class="footer__item">
-                            <div class="el__header">
-                                <h6 class="el__header--title">Learn</h6>
-                            </div>
-                            <nav class="">
-                                <ul class="el__list">
-                                    <li class="menu-item"><a href="#">Documentation</a></li>
-                                    <li class="menu-item"><a href="#">FAQ</a></li>
-                                    <li class="menu-item"><a href="#">Blog</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
+
+                    <div class="col-6 col-lg-2 col-md-3">
                         <div class="footer__item">
                             <div class="el__header">
                                 <h6 class="el__header--title">Community</h6>
@@ -295,16 +310,17 @@
                             </nav>
                         </div>
                     </div>
-                    <div class="col-md-3">
-                        <div class="footer__item">
+                    <div class="col-lg-3 col-md-12">
+                        <div class="footer__item text-center text-lg-start">
                             <div class="el__header">
                                 <h6 class="el__header--title">fOLLOW US</h6>
                             </div>
-                            <div class="social__box -s2 ms-auto">
-                            <a href="#" class="ic--fb"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                            <a href="#" class="ic--tw"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="#" class="ic--ytb"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-                          </div>
+                            <ul class="social__box -s2 ms-auto">
+                                <li><a href="#"><span class="icon-youtube"></span></a></li>
+                                <li><a href="#"><span class="icon-twitter"></span></a></li>
+                                <li><a href="#"><span class="icon-telegram"></span></a></li>
+                                <li><a href="#"><span class="icon-facebook"></span></a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -314,6 +330,35 @@
           <div class="container">2021 Copyright by EtherMAX</div>
         </div>
     </footer>
+
+    <nav id="menu__mobile" class="nav__mobile">
+        <div class="nav__mobile__content">
+            <div class="nav__mobile__header">
+                <img src="./assets/images/logo.png">
+                <div class="nav__mobile--close ms-auto"><img src="./assets/img/burger-close.png" alt=""></div>
+            </div>
+
+            <ul class="nav__mobile--ul">
+                <li class="menu-item"><a href="#">Document</a></li>
+                <li class="menu-item current-menu-item current_page_item"><a href="index.html">Home</a></li>
+                <li class="menu-item"><a href="#">News</a></li>
+                <li class="menu-item"><a href="#">Roadmap</a></li>
+                <li class="menu-item"><a href="#">Products</a></li>
+                <li class="menu-item"><a href="#">Introduce</a></li>
+                <li class="menu-item"><a href="#">Contact Us</a></li>
+            </ul>
+
+            <div class="nav__mobile__follow text-center">
+                <p class="mb-4">fOLLOW US</p>
+                <ul class="social__box -s2 ms-auto justify-content-center">
+                    <li><a href="#"><span class="icon-youtube"></span></a></li>
+                    <li><a href="#"><span class="icon-twitter"></span></a></li>
+                    <li><a href="#"><span class="icon-telegram"></span></a></li>
+                    <li><a href="#"><span class="icon-facebook"></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <!-- end Footer -->
     <script src="./assets/libs/jquery-3.5.1.slim/jquery-3.5.1.slim.min.js"></script>

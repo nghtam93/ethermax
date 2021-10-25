@@ -11,7 +11,6 @@ $(document).ready(function(){
     wow.init();
 
     var header_sticky=$("header.header--fix")
-    // $('.header_sticky').scrollTop()>1?header_sticky.addClass("active"):header_sticky.removeClass("active")
     $(window).scroll(function(){
         $(this).scrollTop()>1?header_sticky.addClass("is-active"):header_sticky.removeClass("is-active")
     })
