@@ -810,6 +810,8 @@ br.tb {
       .home-banner .next-page {
         display: none; } }
   @media (max-width: 767px) {
+    .home-banner .el__item--thumb {
+      max-width: 90%; }
     .home-banner .item__wrap {
       width: 242px; }
     .home-banner .el__item--excerpt {
