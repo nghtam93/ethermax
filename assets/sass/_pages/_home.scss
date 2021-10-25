@@ -38,6 +38,10 @@
             height: 183px;
             position: absolute;
             right: -100px;
+            animation-name: spin;
+            animation-duration: 40000ms;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
         }
         .sc__header--excerpt{
             margin-bottom: 70px;
@@ -279,7 +283,27 @@
             overflow: hidden;
         }
     }
+    @media (max-width: 1199px) {
+        .slider__item{
+            padding:80px 25px 45px;
+            &:before {
+                top: 25px;
+                left: 30px;
+                width: 47px;
+                height: 41px;
+            }
+        }
 
+
+        .slider__item--excerpt {
+            font-size: 16px;
+            line-height: 1.7;
+            margin-bottom: 35px;
+        }
+        .slider__item--excerpt{
+            min-height: 135px;
+        }
+    }
     @media (max-width: 991px) {
         padding: 50px 0 165px;
 
@@ -293,24 +317,6 @@
         .item__wrap{
             width: 300px;
             padding: 0 8px 0 !important;
-        }
-        .slider__item{
-
-            padding:80px 25px 45px;
-            &:before {
-                top: 25px;
-                left: 30px;
-                width: 47px;
-                height: 41px;
-            }
-        }
-        .slider__item--excerpt {
-            font-size: 16px;
-            line-height: 1.7;
-            margin-bottom: 35px;
-        }
-        .slider__item--excerpt{
-            min-height: 135px;
         }
 
     }

@@ -124,6 +124,11 @@
             }
         }
     }
+    @media ( max-width: 1199px ) {
+        .main__nav .dn__menu>li>a {
+            font-size: 15px;
+        }
+    }
     @media ( max-width: 991px ) {
         background-color: #ECF9FA;
         overflow: auto;
