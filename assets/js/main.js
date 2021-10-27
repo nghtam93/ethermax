@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
     var wow = new WOW(
         {
           boxClass:     'wow',
@@ -10,10 +11,16 @@ $(document).ready(function(){
       );
     wow.init();
 
+
     var header_sticky=$("header.header--fix")
-    $(window).scroll(function(){
-        $(this).scrollTop()>1?header_sticky.addClass("is-active"):header_sticky.removeClass("is-active")
-    })
+    if($('body').hasClass( "home" )){
+        $(window).scroll(function(){
+            $(this).scrollTop()>1?header_sticky.addClass("is-active"):header_sticky.removeClass("is-active")
+        })
+    }else{
+        header_sticky.addClass("is-active")
+    }
+
 
 
     //smoothscroll
@@ -45,13 +52,10 @@ $(document).ready(function(){
     var back_to_top=$(".scrollTop"),offset=220,duration=500;$(window).scroll(function(){$(this).scrollTop()>offset?back_to_top.addClass("active"):back_to_top.removeClass("active")}),$(document).on("click",".scrollTop",function(o){return o.preventDefault(),$("html, body").animate({scrollTop:0},duration),!1});
 
 
-
     var $carousel = $('.flickity');
-        // bind event listener first
     $carousel.on( 'ready.flickity', function() {
         var width = $(this).find('.flickity-page-dots').width()
         $(this).attr('style', '--w-dots:'+width+'px');
-
     });
 
     setTimeout(function(){ $carousel.flickity('resize') }, 10000);
