@@ -9,9 +9,12 @@
 
 // Component
 @import "_components/base";
+@import "_components/general";
 @import "_components/header";
 @import "_components/footer";
 @import "_components/menu";
 // Page
 @import "_pages/home";
-@import "_pages/pages";
+@import "_pages/contact";
+@import "_pages/product";
+@import "_pages/introduce";

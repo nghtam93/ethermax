@@ -288,6 +288,10 @@ br{
 
 
 @media (min-width: 1400px){
+    .g-lgb-5{
+        --bs-gutter-x: 3rem;
+        --bs-gutter-y: 3rem;
+    }
     .container {
         max-width: 1360px;
     }

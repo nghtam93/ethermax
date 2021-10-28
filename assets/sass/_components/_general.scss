@@ -1,0 +1,31 @@
+.entry-header{
+	position: relative;
+	z-index: 1;
+}
+.entry-title{
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 72px;
+    background: linear-gradient(97.01deg, #FF86BF 1.41%, #FFC7DE 41.83%, #BF6BEF 86.79%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 65px;
+}
+@media (max-width:1299px){
+	.entry-title {
+	    font-size: 42px;
+	    line-height: 70px;
+	}
+}
+@media (max-width:1199px){
+	.entry-title {
+	    font-size: 36px;
+	    line-height: 64px;
+	}
+}
+@media (max-width:575px){
+	.entry-title {
+	    font-size: 32px;
+	    line-height: 48px;
+	}
+}
