@@ -302,3 +302,8 @@ br{
         max-width: 1360px;
     }
 }
+@media (max-width:767px){
+    .container{
+        max-width: 100%;
+    }
+}
