@@ -93,7 +93,7 @@
 			}
 		}
 	}
-	&.-right{
+	&:nth-child(2n+1){
 		box-shadow: 1px -1px #452c4e;
 		&:before{
 			transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -250,7 +250,7 @@
 	.aboutus__item {
 	    margin-bottom: 50px;
 	    padding: 60px 40px;
-	    &.-right {
+	    &:nth-child(2n+1){
 		    box-shadow: -1px -1px #452c4e;
 		}
 

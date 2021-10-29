@@ -1,18 +1,4 @@
 .wrap__page{
-	position: relative;
-	padding-top:150px;
-	&:before{
-		content: '';
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background:url(../img/producst-bg-top.png) no-repeat;
-		background-size: 100% auto;
-		z-index: -1;
-	}
-
 	&.-contact-us{
 		padding-bottom:135px;
 		.el__box{

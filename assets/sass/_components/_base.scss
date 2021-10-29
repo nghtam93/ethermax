@@ -285,8 +285,14 @@ br{
     }
 }
 
-
-
+@media (min-width: 1199px){
+    .col-lgb-27 {
+        width: 27%;
+    }
+    .col-lgb-73 {
+        width: 73%;
+    }
+}
 @media (min-width: 1400px){
     .g-lgb-5{
         --bs-gutter-x: 3rem;
