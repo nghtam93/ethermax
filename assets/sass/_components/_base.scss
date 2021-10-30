@@ -69,18 +69,18 @@ table {
 
 img {
   max-width: 100%;
+  height: auto;
 }
 a {
     outline: none;
 }
-
-
-.-color-primary{
-    color: $color_primary;
-}
 ol, ul {
 	list-style: none;
 }
+.-color-primary{
+    color: $color_primary;
+}
+.entry-content.-custom .aligncenter{display:block;margin-left:auto;margin-right:auto;}
 
 /**/
 .videoWrapper{position:relative;padding-bottom:56.25%; /* 16:9 */padding-top:25px;height:0;}
@@ -243,7 +243,23 @@ br{
         transform:rotate(360deg);
     }
 }
-
+/* Fix admin*/
+.admin-bar .header--fix{
+    top: 32px;
+}
+@media (max-width: 782px) {
+    .admin-bar .header--fix{
+        top: 46px;
+    }
+}
+@media (max-width: 767px) {
+    .admin-bar .header--fix{
+        top: 0;
+    }
+    #wpadminbar{
+        display: none;
+    }
+}
 
 /*Slider*/
 .flickity-prev-next-button{
